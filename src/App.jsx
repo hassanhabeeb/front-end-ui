@@ -65,7 +65,7 @@ import CreateSeo from './components/seo/create';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/front-end-ui/">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
